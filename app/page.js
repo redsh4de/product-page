@@ -75,13 +75,14 @@ export default function Home() {
             <li><a href="https://www.frontiersin.org/articles/10.3389/fnhum.2020.576082/full" target="_blank">Evoked and Induced MEG Responses to High-Frequency Vibrotactile Stimuli on the Index Finger of Dominant and Non-dominant Hand</a></li>
             <li><a href="https://www.christiecampus.com/stay-informed/blog/september-2021/sleep-deprivation-and-college-students-statistics#:~:text=While%20students%20might%20view%20being,everyone%20is%20different%2C%20on" target="_blank">Sleep Deprivation and College Students—Statistics, Symptoms, and Solutions</a></li>
             <li><a href="https://www.thinkmind.org/download.php?articleid=smart_2014_1_30_40083" target="_blank">Towards Tactile Alarms Systems for Increased Awareness in Smart Environments</a></li>
+            <li><a href="https://www.sciencedirect.com/science/article/pii/0022399996001274" target="_blank">Determinants of sleepiness in automobile drivers</a></li>
           </ul>
         </section>
         <section className={styles.cardFive} id="about">
           <h2>About</h2>
           <p>We are three university students united by a passion for wearable technology aimed at enhancing everyday life.</p>
           <p>Our project, ZenBand, is a conceptual research-based project created at The Raccoons Hackathon 2023, designed to foster alertness during demanding tasks and aid a smooth transition to rest.</p>
-          <p>Through ZenBand, we aspire to harmonize productivity and relaxation, showcasing the potential of wearable technology in navigating today's fast-paced world.</p>
+          <p>Through ZenBand, we aspire to harmonize productivity and relaxation, showcasing the potential of wearable technology in navigating todays fast-paced world.</p>
         </section>
       </div>
     </main>
