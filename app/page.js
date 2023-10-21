@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div>
           <div className={styles.navButtons}>
-            <div>Audience</div>
+            <a href="#audience"><div>Audience</div></a>
             <a href="#research"><div>Research</div></a>
             <a href="#about"><div>About</div></a>
           </div>
@@ -83,7 +83,7 @@ export default function Home() {
             <div className={styles.cSevenSubcard} style={{backgroundColor: "#a3b18a"}}>
               <h3>Insomniacs</h3>
               <img src="/images/insomniac.jpeg" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
-              <p>Aids in achieving restful sleep by inducing a lower heart rate rhythm, addressing mild insomnia issues.</p>
+              <p style={{fontSize: "100% !important"}}>Aids in achieving restful sleep by inducing a lower heart rate rhythm, addressing mild insomnia issues.</p>
             </div>
             <div className={styles.cSevenSubcard} style={{backgroundColor: "#3a5a40", color: "white"}}>
               <h3>Everyday users</h3>
@@ -95,7 +95,8 @@ export default function Home() {
         <section className={styles.cardSix} id="research">
           <div style={{flex: "1"}}>
             <h2>Research</h2>
-            <p>Our team conducted a two-day investigation into the potential application of vibrational stimuli, exploring its efficacy in fostering heightened alertness as well as employing milder vibrations to soothe the mind and facilitate improved sleep quality. The empirical evidence supporting both the viability of our product and the problems that it solves is delineated in the references provided on the side.</p>
+            <p>Our team conducted a two-day investigation into the potential application of vibrational stimuli, exploring its efficacy in fostering heightened alertness as well as employing milder vibrations to soothe the mind and facilitate improved sleep quality.</p>
+            <p>The empirical evidence supporting both the viability of our product and the problems that it solves is delineated in the references provided on the side.</p>
           </div>
           <div style={{flex: "1"}}>
             <ul>
