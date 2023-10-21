@@ -107,7 +107,19 @@
 .cardFive {
   width: 100%;
   padding: 0 6em;
-  display: flex;
+}
+
+.cardFive h2 {
+  font-weight: 400;
+}
+
+.cardSix {
+  width: 100%;
+  padding: 0 6em;
+}
+
+.cardSix h2 {
+  font-weight: 400;
 }
 
 /* Enable hover only on non-touch devices */
