@@ -25,6 +25,19 @@
   font-size: 120%;
 }
 
+.navButtons a {
+  text-decoration: none;
+}
+
+.navButtons a:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.navButtons a:visited {
+  color: black;
+}
+
 .siteTitle {
   position: absolute;
   left: 50%;
@@ -119,10 +132,39 @@
   padding: 0 6em;
   display: flex;
   gap: 1em;
+  padding-top: 2em;
 }
 
 .cardSix h2 {
   font-weight: 400;
+}
+
+.cardSeven {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6em;
+  justify-content: space-between;
+  gap: 1em;
+  width: 100%;
+}
+
+.cSevenCardHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+  width: 100%;
+}
+
+.cSevenSubcard {
+  border-radius: 25px;
+  padding: 1em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 /* Enable hover only on non-touch devices */

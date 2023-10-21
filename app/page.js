@@ -6,7 +6,6 @@ export default function Home() {
     <main className={styles.main} id="home">
       <nav className={styles.nav}>
         <div className={styles.navButtons}>
-          <div>Shop</div>
           <a href="#home"><div>Home</div></a>
         </div>
         <div className={styles.siteTitle}>
@@ -14,7 +13,7 @@ export default function Home() {
         </div>
         <div>
           <div className={styles.navButtons}>
-            <div>Technology</div>
+            <div>Audience</div>
             <a href="#research"><div>Research</div></a>
             <a href="#about"><div>About</div></a>
           </div>
@@ -65,6 +64,33 @@ export default function Home() {
         <section className={styles.cardFour}>
           <p>Are you tired of feeling groggy and unproductive after a long drive or a boring lecture? Do you want to wake up feeling refreshed and energized? Look no further than ZenBand!</p>
           <p>ZenBand is designed to solve two polar ends of the same coin - it can both keep you awake, and promote faster sleep - all through the power of vibrotactile stimulation. The motors are gentle yet effective, providing a subtle nudge to help you stay awake and engaged.</p>
+        </section>
+        <section className={styles.cardSeven} id="audience">
+          <div style={{display: "flex", width: "100%", justifyContent: "center"}}>
+            <h1 style={{fontWeight: "400"}}>Who benefits from ZenBand?</h1>
+          </div>
+          <div className={styles.cSevenCardHolder}>
+            <div className={styles.cSevenSubcard} style={{backgroundColor: "#dad7cd"}}>
+              <h3>Drivers</h3>
+              <img src="/images/drowsydriver.jpeg" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
+              <p>Aiding with temporary vigilance until rest is attainable at the closest opportunity.</p>
+            </div>
+            <div className={styles.cSevenSubcard} style={{backgroundColor: "#a7c957"}}>
+              <h3>Students</h3>
+              <img src="/images/studentsleep.webp" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
+              <p>Tackles alertness challenges, particularly during early morning lectures, as evidenced by prior statistics.</p>
+            </div>
+            <div className={styles.cSevenSubcard} style={{backgroundColor: "#a3b18a"}}>
+              <h3>Insomniacs</h3>
+              <img src="/images/insomniac.jpeg" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
+              <p>Aids in achieving restful sleep by inducing a lower heart rate rhythm, addressing mild insomnia issues.</p>
+            </div>
+            <div className={styles.cSevenSubcard} style={{backgroundColor: "#3a5a40", color: "white"}}>
+              <h3>Everyday users</h3>
+              <img src="/images/crowd.jpeg" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
+              <p>Those in search of an alarm solution that minimizes disturbance to others in close proximity may find ZenBand to be a viable option.</p>
+            </div>
+          </div>
         </section>
         <section className={styles.cardSix} id="research">
           <div style={{flex: "1"}}>
