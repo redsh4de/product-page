@@ -15,7 +15,7 @@ export default function Home() {
           <div className={styles.navButtons}>
             <a href="#audience"><div>Audience</div></a>
             <a href="#research"><div>Research</div></a>
-            <a href="#about"><div>About</div></a>
+            <a href="#about"><div>About Us</div></a>
           </div>
         </div>
       </nav>
@@ -94,7 +94,7 @@ export default function Home() {
         </section>
         <section className={styles.cardFive} id="about">
           <div style={{display: "flex", justifyContent: "center"}}>
-            <h1 style={{fontWeight: "400"}}>About</h1>
+            <h1 style={{fontWeight: "400"}}>About Us</h1>
           </div>
           <div style={{flex: "1"}}>
             <p>We are three university students united by a passion for wearable technology aimed at enhancing everyday life.</p>
