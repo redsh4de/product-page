@@ -67,16 +67,20 @@ export default function Home() {
           <p>ZenBand is designed to solve two polar ends of the same coin - it can both keep you awake, and promote faster sleep - all through the power of vibrotactile stimulation. The motors are gentle yet effective, providing a subtle nudge to help you stay awake and engaged.</p>
         </section>
         <section className={styles.cardSix}>
-          <h2>Research</h2>
-          <p>Our team conducted a two-day investigation into the potential application of vibrational stimuli, exploring its efficacy in fostering heightened alertness as well as employing milder vibrations to soothe the mind and facilitate improved sleep quality. The empirical evidence supporting both the viability of our product and the problems that it solves is delineated in the references provided below:</p>
-          <ul>
-            <li><a href="https://www.hindawi.com/journals/sd/2020/7846914/" target="_blank">An fMRI Study of the Effects of Vibroacoustic Stimulation on Functional Connectivity in Patients with Insomnia</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Rumble_strip" target="_blank">Effects of vibrations caused by rumble strips</a></li>
-            <li><a href="https://www.frontiersin.org/articles/10.3389/fnhum.2020.576082/full" target="_blank">Evoked and Induced MEG Responses to High-Frequency Vibrotactile Stimuli on the Index Finger of Dominant and Non-dominant Hand</a></li>
-            <li><a href="https://www.christiecampus.com/stay-informed/blog/september-2021/sleep-deprivation-and-college-students-statistics#:~:text=While%20students%20might%20view%20being,everyone%20is%20different%2C%20on" target="_blank">Sleep Deprivation and College Students—Statistics, Symptoms, and Solutions</a></li>
-            <li><a href="https://www.thinkmind.org/download.php?articleid=smart_2014_1_30_40083" target="_blank">Towards Tactile Alarms Systems for Increased Awareness in Smart Environments</a></li>
-            <li><a href="https://www.sciencedirect.com/science/article/pii/0022399996001274" target="_blank">Determinants of sleepiness in automobile drivers</a></li>
-          </ul>
+          <div style={{flex: "1"}}>
+            <h2>Research</h2>
+            <p>Our team conducted a two-day investigation into the potential application of vibrational stimuli, exploring its efficacy in fostering heightened alertness as well as employing milder vibrations to soothe the mind and facilitate improved sleep quality. The empirical evidence supporting both the viability of our product and the problems that it solves is delineated in the references provided on the side:</p>
+          </div>
+          <div style={{flex: "1"}}>
+            <ul>
+              <li><a href="https://www.hindawi.com/journals/sd/2020/7846914/" target="_blank">An fMRI Study of the Effects of Vibroacoustic Stimulation on Functional Connectivity in Patients with Insomnia</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rumble_strip" target="_blank">Effects of vibrations caused by rumble strips</a></li>
+              <li><a href="https://www.frontiersin.org/articles/10.3389/fnhum.2020.576082/full" target="_blank">Evoked and Induced MEG Responses to High-Frequency Vibrotactile Stimuli on the Index Finger of Dominant and Non-dominant Hand</a></li>
+              <li><a href="https://www.christiecampus.com/stay-informed/blog/september-2021/sleep-deprivation-and-college-students-statistics#:~:text=While%20students%20might%20view%20being,everyone%20is%20different%2C%20on" target="_blank">Sleep Deprivation and College Students—Statistics, Symptoms, and Solutions</a></li>
+              <li><a href="https://www.thinkmind.org/download.php?articleid=smart_2014_1_30_40083" target="_blank">Towards Tactile Alarms Systems for Increased Awareness in Smart Environments</a></li>
+              <li><a href="https://www.sciencedirect.com/science/article/pii/0022399996001274" target="_blank">Determinants of sleepiness in automobile drivers</a></li>
+            </ul>
+          </div>
         </section>
         <section className={styles.cardFive} id="about">
           <h2>About</h2>

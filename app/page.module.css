@@ -116,6 +116,8 @@
 .cardSix {
   width: 100%;
   padding: 0 6em;
+  display: flex;
+  gap: 1em;
 }
 
 .cardSix h2 {
