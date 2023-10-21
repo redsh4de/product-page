@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.cardTwo}>
-          <div style={{display: "flex", backgroundColor: "lightgreen", borderRadius: "25px", padding: "2em", width: "100%", justifyContent: "space-between"}}>
+          <div style={{display: "flex", backgroundColor: "#a3b18a", borderRadius: "25px", padding: "2em", width: "100%", justifyContent: "space-between"}}>
             <div className={styles.cardTwoItem}>
               <h1>Manage your stress levels</h1>
               <p>The bracelet uses gentle vibrations to calm you down and reduce cortisol levels.</p>
@@ -70,57 +70,44 @@ export default function Home() {
             <h1 style={{fontWeight: "400"}}>Who benefits from ZenBand?</h1>
           </div>
           <div className={styles.cSevenCardHolder}>
-            <div className={styles.cSevenSubcard} style={{backgroundColor: "#dad7cd"}}>
+            <div className={styles.cSevenSubcard} style={{backgroundColor: "#588157"}}>
               <h3>Drivers</h3>
               <img src="/images/drowsydriver.jpeg" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
               <p>Aiding with temporary vigilance until rest is attainable at the closest opportunity.</p>
             </div>
-            <div className={styles.cSevenSubcard} style={{backgroundColor: "#a7c957"}}>
+            <div className={styles.cSevenSubcard} style={{backgroundColor: "#a3b18a"}}>
               <h3>Students</h3>
               <img src="/images/studentsleep.webp" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
               <p>Tackles alertness challenges, particularly during early morning lectures, as evidenced by prior statistics.</p>
             </div>
-            <div className={styles.cSevenSubcard} style={{backgroundColor: "#a3b18a"}}>
+            <div className={styles.cSevenSubcard} style={{backgroundColor: "#588157"}}>
               <h3>Insomniacs</h3>
               <img src="/images/insomniac.jpeg" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
               <p style={{fontSize: "100% !important"}}>Aids in achieving restful sleep by inducing a lower heart rate rhythm, addressing mild insomnia issues.</p>
             </div>
-            <div className={styles.cSevenSubcard} style={{backgroundColor: "#3a5a40", color: "white"}}>
+            <div className={styles.cSevenSubcard} style={{backgroundColor: "#a3b18a"}}>
               <h3>Everyday users</h3>
               <img src="/images/crowd.jpeg" width="100%" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}></img>
               <p>Those in search of an alarm solution that minimizes disturbance to others in close proximity may find ZenBand to be a viable option.</p>
             </div>
           </div>
         </section>
-        <section className={styles.cardSix} id="research">
-          <div style={{flex: "1"}}>
-            <h2>Research</h2>
-            <p>Our team conducted a two-day investigation into the potential application of vibrational stimuli, exploring its efficacy in fostering heightened alertness as well as employing milder vibrations to soothe the mind and facilitate improved sleep quality.</p>
-            <p>The empirical evidence supporting both the viability of our product and the problems that it solves is delineated in the references provided on the side.</p>
+        <section className={styles.cardFive} id="about">
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <h1 style={{fontWeight: "400"}}>About</h1>
           </div>
           <div style={{flex: "1"}}>
+            <p>We are three university students united by a passion for wearable technology aimed at enhancing everyday life.</p>
+            <p>Our project, ZenBand, is a conceptual research-based project created at The Raccoons Hackathon 2023, designed to foster alertness during demanding tasks and aid a smooth transition to rest.</p>
+            <p>Through ZenBand, we aspire to harmonize productivity and relaxation, showcasing the potential of wearable technology in navigating todays fast-paced world.</p>
+            <p>During the hackathon, we have accomplished the following:</p>
             <ul>
-              <li><a href="https://www.hindawi.com/journals/sd/2020/7846914/" target="_blank">An fMRI Study of the Effects of Vibroacoustic Stimulation on Functional Connectivity in Patients with Insomnia</a></li>
-              <li><a href="https://en.wikipedia.org/wiki/Rumble_strip" target="_blank">Effects of vibrations caused by rumble strips</a></li>
-              <li><a href="https://www.frontiersin.org/articles/10.3389/fnhum.2020.576082/full" target="_blank">Evoked and Induced MEG Responses to High-Frequency Vibrotactile Stimuli on the Index Finger of Dominant and Non-dominant Hand</a></li>
-              <li><a href="https://www.christiecampus.com/stay-informed/blog/september-2021/sleep-deprivation-and-college-students-statistics#:~:text=While%20students%20might%20view%20being,everyone%20is%20different%2C%20on" target="_blank">Sleep Deprivation and College Students—Statistics, Symptoms, and Solutions</a></li>
-              <li><a href="https://www.thinkmind.org/download.php?articleid=smart_2014_1_30_40083" target="_blank">Towards Tactile Alarms Systems for Increased Awareness in Smart Environments</a></li>
-              <li><a href="https://www.sciencedirect.com/science/article/pii/0022399996001274" target="_blank">Determinants of sleepiness in automobile drivers</a></li>
+              <li>Came up with the concept of a device that would help us stay alert during studies</li>
+              <li>While researching the viability, we found out the inverse can be possible using the same technology</li>
+              <li>Researched existing competitors and found areas we can improve upon to have a market breakthrough</li>
+              <li>Created our product landing page and pitch deck</li>
             </ul>
           </div>
-        </section>
-        <section className={styles.cardFive} id="about">
-          <h2>About</h2>
-          <p>We are three university students united by a passion for wearable technology aimed at enhancing everyday life.</p>
-          <p>Our project, ZenBand, is a conceptual research-based project created at The Raccoons Hackathon 2023, designed to foster alertness during demanding tasks and aid a smooth transition to rest.</p>
-          <p>Through ZenBand, we aspire to harmonize productivity and relaxation, showcasing the potential of wearable technology in navigating todays fast-paced world.</p>
-          <p>During the hackathon, we have accomplished the following:</p>
-          <ul>
-            <li>Came up with the concept of a device that would help us stay alert during studies</li>
-            <li>While researching the viability, we found out the inverse can be possible using the same technology</li>
-            <li>Researched existing competitors and found areas we can improve upon to have a market breakthrough</li>
-            <li>Created our product landing page and pitch deck</li>
-          </ul>
         </section>
       </div>
     </main>
