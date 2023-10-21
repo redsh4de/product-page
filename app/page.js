@@ -98,7 +98,7 @@ export default function Home() {
           </div>
           <div style={{flex: "1"}}>
             <p>We are three university students united by a passion for wearable technology aimed at enhancing everyday life.</p>
-            <p>Our project, ZenBand, is a conceptual research-based project created at The Raccoons Hackathon 2023, designed to foster alertness during demanding tasks and aid a smooth transition to rest.</p>
+            <p>ZenBand is a conceptual research-based project created at The Raccoons Hackathon 2023, designed to foster alertness during demanding tasks and aid a smooth transition to rest.</p>
             <p>Through ZenBand, we aspire to harmonize productivity and relaxation, showcasing the potential of wearable technology in navigating todays fast-paced world.</p>
             <p>During the hackathon, we have accomplished the following:</p>
             <ul>
