@@ -27,6 +27,10 @@ export default function Home() {
             <span className={styles.subtitle}>For daylight vigilance and nightime calm.</span>
           </div>
         </section>
+        <section className={styles.cardFour}>
+          <p>Are you tired of feeling groggy and unproductive after a long drive or a boring lecture? Do you want to wake up feeling refreshed and energized? Look no further than ZenBand!</p>
+          <p>ZenBand is designed to solve two polar ends of the same coin - it can both keep you awake, and promote faster sleep - all through the power of vibrotactile stimulation. The motors are gentle yet effective, providing a subtle nudge to help you stay awake and engaged.</p>
+        </section>
         <section className={styles.cardTwo}>
           <div style={{display: "flex", backgroundColor: "#a3b18a", borderRadius: "25px", padding: "2em", width: "100%", justifyContent: "space-between"}}>
             <div className={styles.cardTwoItem}>
@@ -60,10 +64,6 @@ export default function Home() {
           <div style={{display: "flex", justifyContent: "center"}}>
             <img src="/images/nightstand.png" width={"80%"} height="auto" style={{borderRadius: "25px", boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.3)"}}/>
           </div>
-        </section>
-        <section className={styles.cardFour}>
-          <p>Are you tired of feeling groggy and unproductive after a long drive or a boring lecture? Do you want to wake up feeling refreshed and energized? Look no further than ZenBand!</p>
-          <p>ZenBand is designed to solve two polar ends of the same coin - it can both keep you awake, and promote faster sleep - all through the power of vibrotactile stimulation. The motors are gentle yet effective, providing a subtle nudge to help you stay awake and engaged.</p>
         </section>
         <section className={styles.cardSeven} id="audience">
           <div style={{display: "flex", width: "100%", justifyContent: "center"}}>
