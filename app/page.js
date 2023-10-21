@@ -30,7 +30,7 @@ export default function Home() {
         <section className={styles.cardTwo}>
           <div style={{display: "flex", backgroundColor: "#a3b18a", borderRadius: "25px", padding: "2em", width: "100%", justifyContent: "space-between"}}>
             <div className={styles.cardTwoItem}>
-              <h1>Manage your stress levels</h1>
+              <h1>Manages your stress level</h1>
               <p>The bracelet uses gentle vibrations to calm you down and reduce cortisol levels.</p>
             </div>
             <div className={styles.cardTwoItem}>
@@ -45,7 +45,7 @@ export default function Home() {
         </section>
         <section className={styles.cardThree}>
           <div>
-            <h1>Unparalleled versatility.</h1>
+            <h1>Unparalleled versatility</h1>
           </div>
           <div style={{display: "flex", justifyContent: "center", alignItems: "space-between", gap: "3em", minWidth: "20%"}}>
             <ul>
