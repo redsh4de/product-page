@@ -25,6 +25,7 @@ export default function Home() {
           <div className={styles.introtext}>
             <span className={styles.title}>ZenBand Bracelet</span><br/>
             <span className={styles.subtitle}>For daylight vigilance and nightime calm.</span>
+            <div className={styles.buyNowButton}>Buy Now</div>
           </div>
         </section>
         <section className={styles.cardFour}>

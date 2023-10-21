@@ -69,6 +69,21 @@
   font-size: 300%;
   color: white;
   font-weight: bold;
+  line-height: 0.75em;
+}
+
+.buyNowButton {
+  font-size: 50%;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #588157;
+  border-radius: 15px;
+  max-width: fit-content;
+}
+
+.buyNowButton:hover {
+  cursor: pointer;
+  background-color: #7ea87d;
 }
 
 .cardTwo {
