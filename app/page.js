@@ -15,7 +15,7 @@ export default function Home() {
         <div>
           <div className={styles.navButtons}>
             <div>Technology</div>
-            <div>Research</div>
+            <a href="#research"><div>Research</div></a>
             <a href="#about"><div>About</div></a>
           </div>
         </div>
@@ -66,10 +66,10 @@ export default function Home() {
           <p>Are you tired of feeling groggy and unproductive after a long drive or a boring lecture? Do you want to wake up feeling refreshed and energized? Look no further than ZenBand!</p>
           <p>ZenBand is designed to solve two polar ends of the same coin - it can both keep you awake, and promote faster sleep - all through the power of vibrotactile stimulation. The motors are gentle yet effective, providing a subtle nudge to help you stay awake and engaged.</p>
         </section>
-        <section className={styles.cardSix}>
+        <section className={styles.cardSix} id="research">
           <div style={{flex: "1"}}>
             <h2>Research</h2>
-            <p>Our team conducted a two-day investigation into the potential application of vibrational stimuli, exploring its efficacy in fostering heightened alertness as well as employing milder vibrations to soothe the mind and facilitate improved sleep quality. The empirical evidence supporting both the viability of our product and the problems that it solves is delineated in the references provided on the side:</p>
+            <p>Our team conducted a two-day investigation into the potential application of vibrational stimuli, exploring its efficacy in fostering heightened alertness as well as employing milder vibrations to soothe the mind and facilitate improved sleep quality. The empirical evidence supporting both the viability of our product and the problems that it solves is delineated in the references provided on the side.</p>
           </div>
           <div style={{flex: "1"}}>
             <ul>
@@ -87,6 +87,13 @@ export default function Home() {
           <p>We are three university students united by a passion for wearable technology aimed at enhancing everyday life.</p>
           <p>Our project, ZenBand, is a conceptual research-based project created at The Raccoons Hackathon 2023, designed to foster alertness during demanding tasks and aid a smooth transition to rest.</p>
           <p>Through ZenBand, we aspire to harmonize productivity and relaxation, showcasing the potential of wearable technology in navigating todays fast-paced world.</p>
+          <p>During the hackathon, we have accomplished the following:</p>
+          <ul>
+            <li>Came up with the concept of a device that would help us stay alert during studies</li>
+            <li>While researching the viability, we found out the inverse can be possible using the same technology</li>
+            <li>Researched existing competitors and found areas we can improve upon to have a market breakthrough</li>
+            <li>Created our product landing page and pitch deck</li>
+          </ul>
         </section>
       </div>
     </main>
