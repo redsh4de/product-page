@@ -113,7 +113,7 @@
 .cardFour {
   width: 100%;
   padding: 6rem;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   display: flex;
   flex-direction: column;
 }
