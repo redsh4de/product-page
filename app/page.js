@@ -8,13 +8,14 @@ export default function Home() {
     <main className={styles.main} id="home">
       <nav className={styles.nav}>
         <div className={styles.navButtons}>
-          <a href="#home"><div>Home</div></a>
+          
         </div>
         <div className={styles.siteTitle}>
           <img src="/images/logo-color.png" width="auto" height="40em"/>
         </div>
         <div>
           <div className={styles.navButtons}>
+            <a href="#home"><div>Home</div></a>
             <a href="#audience"><div>Audience</div></a>
             <a href="#faq"><div>FAQ</div></a>
             <a href="#about"><div>About Us</div></a>
