@@ -16,6 +16,7 @@ export default function Home() {
         <div>
           <div className={styles.navButtons}>
             <a href="#audience"><div>Audience</div></a>
+            <a href="#faq"><div>Audience</div></a>
             <a href="#about"><div>About Us</div></a>
           </div>
         </div>
@@ -94,7 +95,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={styles.cardEight} id="why">
+        <section className={styles.cardEight} id="faq">
           <div style={{display: "flex", width: "100%", justifyContent: "center"}}>
             <h1 style={{fontWeight: "400"}}>FAQ</h1>
           </div>
