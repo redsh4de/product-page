@@ -9,6 +9,7 @@ body {
 
 html {
   font-family: 'Helvetica Neue';
+  scroll-padding-top: 10em;
 }
 
 html,

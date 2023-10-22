@@ -131,7 +131,7 @@ export default function Home() {
             <p>During the hackathon, we have accomplished the following:</p>
             <ul>
               <li>Came up with the concept of a device that would help us stay alert during our early morning lectures</li>
-              <li>While researching the viability, we found out that the same technology can be used to lower a person's pulse</li>
+              <li>While researching the viability, we found out that the same technology can be used to lower a persons pulse</li>
               <li>Researched existing competitors and found areas we can improve upon to have a market breakthrough</li>
               <li>Created our product landing page and pitch deck</li>
             </ul>
