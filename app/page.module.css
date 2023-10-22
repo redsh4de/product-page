@@ -138,9 +138,9 @@
   width: 100%;
   padding: 0 6rem;
   display: flex;
-  gap: 4em;
   padding-top: 3em;
   line-height: 1.5em;
+  flex-direction: column;
 }
 
 .cardFive h2 {
@@ -166,6 +166,17 @@
   justify-content: space-between;
   gap: 1em;
   width: 100%;
+  padding-top: 1em;
+}
+
+.cardEight {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6em;
+  justify-content: space-between;
+  gap: 1em;
+  width: 100%;
+  padding-top: 1em;
 }
 
 .cSevenCardHolder {

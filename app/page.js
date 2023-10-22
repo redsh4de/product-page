@@ -1,5 +1,7 @@
+'use client'
 import Image from 'next/image'
 import styles from './page.module.css'
+import Accordion from './_components/accordion'
 
 export default function Home() {
   return (
@@ -14,7 +16,6 @@ export default function Home() {
         <div>
           <div className={styles.navButtons}>
             <a href="#audience"><div>Audience</div></a>
-            <a href="#research"><div>Research</div></a>
             <a href="#about"><div>About Us</div></a>
           </div>
         </div>
@@ -54,7 +55,7 @@ export default function Home() {
           </div>
           <div style={{display: "flex", justifyContent: "center", alignItems: "space-between", gap: "3em", minWidth: "20%"}}>
             <ul>
-              <li>Intelligent sensors</li>
+              <li>Intelligent pulse sensors</li>
               <li>Advanced vibromotors</li>
               <li>Bluetooth 5.0</li>
               <li>Wireless charging</li>
@@ -93,9 +94,32 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className={styles.cardEight} id="why">
+          <div style={{display: "flex", width: "100%", justifyContent: "center"}}>
+            <h1 style={{fontWeight: "400"}}>FAQ</h1>
+          </div>
+          <div>
+            <Accordion
+              title="What is the primary purpose of ZenBand?"
+              content="ZenBand is a wearable device designed to maintain alertness during demanding activities and assist in a smooth transition to sleep. It's ideal for various scenarios where traditional alarms are impractical, such as lectures or long drives."
+            />
+            <Accordion
+              title="How does ZenBand work?"
+              content="ZenBand is equipped with two powerful vibro motors that serve dual purposes. To keep you awake and alert, the bracelet sends strong blasts of tactile alarms through your arm, providing an effective yet non-disruptive alert mechanism during demanding activities. On the flip side, when it's time to wind down, ZenBand employs gentle variations of vibrotactile feedback to promote relaxation and ease the transition into a restful state. The contrasting alert and calming features are designed to seamlessly fit into your daily routine, aiding in both productivity and relaxation."
+            />
+            <Accordion
+              title="What are the charging options for ZenBand?"
+              content="ZenBand uses Qi Wireless Charging and comes with a charging dock. A full charge can last up to 24 hours."
+            />
+            <Accordion
+              title="Is ZenBand sweat/water resistant?"
+              content="Yes, since ZenBand can be charged only wirelessly, there are no ports or openings, providing the device with a high degree of sweat and water resistance."
+            />
+          </div>
+        </section>
         <section className={styles.cardFive} id="about">
-          <div style={{display: "flex", justifyContent: "center"}}>
-            <h1 style={{fontWeight: "400"}}>About Us</h1>
+          <div style={{display: "flex", justifyContent: "left"}}>
+            <h1 style={{fontWeight: "600"}}>About Us</h1>
           </div>
           <div style={{flex: "1"}}>
             <p>We are three university students united by a passion for wearable technology aimed at enhancing everyday life.</p>
@@ -103,8 +127,8 @@ export default function Home() {
             <p>Through ZenBand, we aspire to harmonize productivity and relaxation, showcasing the potential of wearable technology in navigating todays fast-paced world.</p>
             <p>During the hackathon, we have accomplished the following:</p>
             <ul>
-              <li>Came up with the concept of a device that would help us stay alert during studies</li>
-              <li>While researching the viability, we found out the inverse can be possible using the same technology</li>
+              <li>Came up with the concept of a device that would help us stay alert during our early morning lectures</li>
+              <li>While researching the viability, we found out that the same technology can be used to</li>
               <li>Researched existing competitors and found areas we can improve upon to have a market breakthrough</li>
               <li>Created our product landing page and pitch deck</li>
             </ul>
