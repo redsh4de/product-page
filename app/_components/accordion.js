@@ -27,7 +27,8 @@ export default function Accordion(props) {
           border: "none",
           background: "transparent",
           outline: "none",
-          cursor: "pointer"
+          cursor: "pointer",
+          fontSize: "110%"
         }}
         onClick={toggle}
         type="button"

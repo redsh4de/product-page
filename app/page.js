@@ -16,6 +16,7 @@ export default function Home() {
         <div>
           <div className={styles.navButtons}>
             <a href="#home"><div>Home</div></a>
+            <a href="#"><div>Product</div></a>
             <a href="#audience"><div>Audience</div></a>
             <a href="#faq"><div>FAQ</div></a>
             <a href="#about"><div>About Us</div></a>
